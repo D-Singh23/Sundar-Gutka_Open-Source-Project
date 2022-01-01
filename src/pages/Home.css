@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "anmol-lipi";
+    src: url("../assets/fonts/AnmolLipi.ttf")
+}
+
+:root{
+    --ion-color-accent: rgb(21, 34, 105);
+    --ico-color-accent-tr: rgba(21, 34, 105, 0.75);
+    --background: #141414 !important;
+}
+
+body{
+    background-color: #f5f5f7;
+    
+}
+.ios body{
+    background-color: #f5f5f7;
+}
+
+.toolbar-background{
+    background: var(--ico-color-accent-tr) !important;
+}
+
+.header-translucent-md{
+    backdrop-filter: saturate(180%) blur(15px);
+    box-shadow: none !important;
+    border-bottom: 1px solid #00000033;
+}
+
+.header-md::after{
+    background-image: none;
+}
+/* .sc-ion-alert-ios{
+    backdrop-filter: blur(15px);
+} */
+
+.pun{
+    font-family: 'anmol-lipi';
+}
+
+
+
+.ui{
+    font-weight: 600 !important;
+}
+
+.item{
+    font-weight: 600;
+}
+
+.iosicon{
+    height: 2em;
+    width: 2em;
+}
+
+.ios .alert-wrapper{
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: saturate(180%) blur(15px);
+}
+
+.set-list-icon{
+    margin-right: 0.25em;
+}
+
+.md .iosicon{
+    display: none;
+}
+
+.mdicon{
+    height: 2em;
+}
+
+.ios .mdicon{
+    display: none;
+}
+
+.top-name{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.path{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: 'anmol-lipi';
+}
+
+
+.center{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gray{
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    margin: 0.25em 0;
+    padding: 0;
+}
+
+.big{
+    font-size: larger;
+    line-height: normal;
+    color: rgb(21, 34, 105);
+}
+.warning{
+    background-color: var(--ion-color-warning);
+    text-align: center;
+    color: #000;
+    margin: 5em auto;
+    padding: 0.2em 0;
+    border-radius: 15px;
+    width: 90vw;
+    max-width: 750px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+    border: rgba(0, 0, 0, 1) 4px solid;
+}
+
+.warning svg{
+    fill: #000;
+}
+
+.upcome{
+    margin: 5em auto;
+    padding: 0.2em 1em;
+    width:fit-content;
+}
+
+.text-gradient{
+    background: linear-gradient(90deg, rgba(1,93,253,1) 0%, rgba(153,85,196,1) 35%, rgba(254,93,113,1) 64%, rgba(255,164,159,1) 100%);
+    /* background-size: cover; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.upcome h6{
+    font-size: small;
+    margin: 0;
+}
+
+.upcome h3{
+    margin: 0;
+    font-size:medium;
+}
+
+h3 span{
+    font-weight: 900;
+    font-size: larger;
+}
+
+.updates{
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 90vw;
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: 4px 5px 25px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 4px 5px 25px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 4px 5px 25px 0px rgba(0,0,0,0.15);
+    max-width: 800px;
+}
+
+/* .contact{
+    position: inherit;
+} */
+
+.contact ion-title{
+    font-size: 34px ;
+    position: initial;
+}
+
+.contact ion-text{
+    margin-left: 3rem;
+    
+}
+
+.contact span{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.contact span a{
+    text-decoration: none;
+    color: var(--ion-color-primary);
+}
+
+.about{
+    margin: 0 1em;
+}
+
+.about ion-title{
+    position: initial;
+    margin-top: 1em;
+    font-size: 34px;
+}
+
+.about span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about span ion-text{
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.about p{
+    text-align: center;
+}
+
+.about svg{
+    width: 3em;
+    fill: greenyellow;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    .ios body{
+        --ion-background-color: #141414 !important; 
+    }
+
+    .big{
+        color: rgb(185, 196, 255);
+    }
+
+    .gray{
+        color: rgb(200, 200, 200);
+    }
+
+    .updates{
+        background: #1d1d1f;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .path{
+        text-align: center;
+    }
+}
+

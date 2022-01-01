@@ -1,0 +1,7 @@
+{
+  "name": "sundar-gutka",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
